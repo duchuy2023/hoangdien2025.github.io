@@ -2,7 +2,7 @@
 $(function() {
 		   
 	// main menu toggler
-	$('.nav .container').prepend('<div class="menu-icon"><a class="navbar-brand" href="#"><img src="images/logo.png" alt="BootstrapBrain Logo" height="25"></a><span>Menu</span></div>');
+	$('.nav .container').prepend('<div class="menu-icon"><a class="navbar-brand" href="#"><img src="https://raw.githubusercontent.com/duchuy2023/hoangdien2025.github.io/refs/heads/main/images/logo.png" alt="BootstrapBrain Logo" height="25"></a><span>Menu</span></div>');
 	$('.menu-icon').click(function(){						
 		$('ul.dropdown').slideToggle(600);
 		$(this).toggleClass("active");	
@@ -16,5 +16,6 @@ $(function() {
 	});	
 	
 });
+
 
 
